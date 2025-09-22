@@ -5,5 +5,23 @@
     color: tomato;
 }
 .nav-link:focus, .nav-link:hover{
-    color: tomato;
+    color: #ff6347;
+}
+
+.container{
+    width: 85%;
+}
+
+.home-section{
+    background-image: url(../images/circle-scatter-haikei.svg);
+    background-position: center;
+    background-size: cover;
+}
+.right-header img{
+    background-image: url(../images/blob-haikei.svg);
+    background-position: center;
+    background-size: cover;
+}
+.header-width{
+    max-width: 500px;
 }
