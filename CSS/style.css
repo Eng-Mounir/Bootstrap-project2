@@ -52,7 +52,7 @@ section {
     width: 120px;
     height: 3px;
     position: absolute;
-    top: 45%;
+    top: 150px;
     left: 50%;
     background-color: red;
     transform: translateX(-50%);
@@ -75,4 +75,9 @@ section {
     background-size: cover;
     border-radius: 50%;
     box-sizing:border-box;
+    cursor: pointer;
+    transition: 0.5 ease-in;
+}
+.carousel-indicators [data-bs-target]:hover {
+    transform: scale(1.1);
 }
