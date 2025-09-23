@@ -57,14 +57,9 @@ section {
     background-color: red;
     transform: translateX(-50%);
 }
-.carousel-indicators img{
-    width: 50px;
-}
-
-
 
 .carousel-indicators{
-    top: 95%;
+    top: 93%;
 }
 .carousel-indicators [data-bs-target] {
     text-indent: 0;
