@@ -76,3 +76,13 @@ section {
 .carousel-indicators [data-bs-target]:hover {
     transform: scale(1.1);
 }
+
+
+.blog-section .nav-link:hover {
+    color: red;
+}
+
+
+.blog-section .nav-link {
+    color: blue;
+}
