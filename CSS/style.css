@@ -24,11 +24,55 @@ section {
     background-position: center;
     background-size: cover;
 }
-.right-header img{
+.blob-bg {
     background-image: url(../images/blob-haikei.svg);
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.right-header img {
+    position: relative;
+    z-index: 1;
 }
 .header-width{
     max-width: 500px;
+}
+
+
+
+.test-section .text-content h1::after{
+    content: "";
+    width: 120px;
+    height: 3px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background-color: red;
+    transform: translateX(-50%);
+}
+.carousel-indicators img{
+    width: 50px;
+}
+
+
+
+.carousel-indicators{
+    top: 95%;
+}
+.carousel-indicators [data-bs-target] {
+    text-indent: 0;
+    background-clip:initial;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-sizing:border-box;
 }
